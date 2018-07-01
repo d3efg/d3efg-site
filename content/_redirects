@@ -1,0 +1,5 @@
+# Redirect domain aliases to primary domain
+https://vdc.sh/* https://d3efg.vdc.sh/:splat 301!
+
+# Optional: Redirect default Netlify subdomain to primary domain
+https://d3efg-vdc-sh.netlify.com/* https://d3efg.vdc.sh/:splat 301!
