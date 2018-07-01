@@ -4,7 +4,6 @@ from __future__ import unicode_literals
 
 AUTHOR = 'd3efg'
 SITENAME = 'd3efg - vdc.sh'
-SITEURL = 'https://d3efg.vdc.sh'
 
 PATH = 'content'
 
@@ -37,3 +36,7 @@ DEFAULT_PAGINATION = False
 #RELATIVE_URLS = True
 
 STATIC_PATHS = ['_redirects']
+
+THEME = 'themes/monospace'
+
+MD_EXTENSIONS = ['codehilite(css_class=codehilite code)']
