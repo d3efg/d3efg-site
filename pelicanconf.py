@@ -3,7 +3,7 @@
 from __future__ import unicode_literals
 
 AUTHOR = 'd3efg'
-SITENAME = 'd3efg - vdc.sh'
+SITENAME = 'd3efg.vdc.sh'
 
 PATH = 'content'
 
