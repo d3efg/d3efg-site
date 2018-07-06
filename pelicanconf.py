@@ -35,7 +35,7 @@ DEFAULT_PAGINATION = False
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 
-STATIC_PATHS = ['_redirects','content/googled36c273db50d1d34.html'] 
+STATIC_PATHS = ['_redirects']
 
 THEME = 'themes/monospace'
 
