@@ -37,6 +37,10 @@ DEFAULT_PAGINATION = False
 
 STATIC_PATHS = ['_redirects']
 
-THEME = 'themes/monospace'
+#THEME = 'themes/monospace'
+THEME = 'themes/d3efg'
+#THEME = 'themes/mc-pelican-20150208/'
 
 MD_EXTENSIONS = ['codehilite(css_class=codehilite code)']
+
+DISPLAY_PAGES_ON_MENU = True

@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Arvo|Inconsolata');
+@import "colors.min.css";
+
+body {
+    font-family : 'Arvo', serif ;
+    font-size : 100% ;
+    background-color : white;
+    color : #001f3f;
+    min-width : 400px ;
+    min-height : 200px ;
+    padding : 1em ;
+    margin : 4px;
+    padding-top: 0;
+    margin-top: 0;
+    display : block ;
+}
+
+a:link    { color : #001f3f ; text-decoration : underline ; }
+a:hover   { color : #001f3f ; text-decoration : none ; }
+a:visited { color : #001f3f ;                               }
+
+h1 a { color : inherit !important }
+h2 a { color : inherit !important }
+h3 a { color : inherit !important }
+h4 a { color : inherit !important }
+h5 a { color : inherit !important }
+h6 a { color : inherit !important }
+
+pre {
+    font-family: 'Inconsolata';
+    padding: 8px;
+    margin: -8px;
+    margin-left: 4px;
+    background-color: #ddd;
+}
+
+#menu li {
+    display : inline ;
+}
+
+#post-list {
+    margin-bottom : 1em ;
+    margin-top : 1em ;
+}
